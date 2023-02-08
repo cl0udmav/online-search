@@ -1,2 +1,2 @@
-# google-search
-Programatically search Google for stuff.
+# online-search
+Programatically search online for stuff.
