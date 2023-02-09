@@ -9,3 +9,6 @@ Programatically search online for stuff.
 1. Create an `.env` file in your root directory
 2. Update the `.env` file with parameters required by the map in [main](main.go)
 3. `go run main.go`
+
+## Results
+You should get a `results.json` output in your root directory with your query results.
