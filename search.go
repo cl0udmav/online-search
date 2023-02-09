@@ -1,4 +1,4 @@
-package main
+package search
 
 import (
 	"fmt"
@@ -33,7 +33,7 @@ func main() {
 	search := g.NewGoogleSearch(parameter, os.Getenv("API_KEY"))
 	results, err := search.GetJSON()
 
-	file, err := os.Create(os.Getenv("RESULTS_FILE"))
+	file, err := os.Create("results.json")
 	if err != nil {
 		fmt.Println(err)
 		return
